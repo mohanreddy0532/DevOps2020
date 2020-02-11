@@ -1,0 +1,31 @@
+##########SetUp Git on Linux#############
+Create a folder in GIT GUI--->feb2020
+git@github.com:mohanreddy0532/feb2020.git
+
+On Local Machine:
+
+mkdir feb2020
+cd feb2020
+
+echo "# feb2020" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:mohanreddy0532/feb2020.git
+git push -u origin master
+-------------------------------------
+#########Error [root@oc3818167352 feb2020]# git push -u origin master
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.#######################################
+
+ssh-keygen -t rsa -b 4096 -C "mohanreddy0532@gmail.com"
+eval "$(ssh-agent -s)"
+cat /root/.ssh/id_rsa.pub 
+Add to GIT Settings---> click SSH and GPG keys.
+-------------------------------------
+git push -u origin master
+
+Successfully Added to GIT master ---->>>feb2020
+=================================THANK YOU=====================================

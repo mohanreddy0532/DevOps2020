@@ -29,6 +29,7 @@ git push -u origin master
 
 Successfully Added to GIT master ---->>>feb2020
 =================================THANK YOU=====================================
+Simple Steps::::
 git add -A
 git commit -m "CommittingChanges"
 git push

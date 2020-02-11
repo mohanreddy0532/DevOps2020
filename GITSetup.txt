@@ -13,7 +13,7 @@ git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:mohanreddy0532/feb2020.git
 git push -u origin master
--------------------------------------
+------------ErrorS-------------------------
 #########Error [root@oc3818167352 feb2020]# git push -u origin master
 Permission denied (publickey).
 fatal: Could not read from remote repository.

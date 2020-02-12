@@ -45,3 +45,8 @@ Add to GIT Settings---> click SSH and GPG keys.
 git clone git@github.com:mohanreddy0532/feb2020.git
 git pull
 cd feb2020
+
+-------------------------------------------------
+#git clone <URL>
+git clone https://github.com/mohanreddy0532/Feb2020
+ls

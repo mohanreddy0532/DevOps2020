@@ -40,8 +40,7 @@ ssh-keygen -t rsa -b 4096 -C "mohanreddy0532@gmail.com"
 eval "$(ssh-agent -s)"
 cat /root/.ssh/id_rsa.pub 
 Add to GIT Settings---> click SSH and GPG keys.
-
---------
+------------------------------------------------------
 git clone git@github.com:mohanreddy0532/feb2020.git
 git pull
 cd feb2020

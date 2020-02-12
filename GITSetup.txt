@@ -33,7 +33,7 @@ Simple Steps::::
 git add -A
 git commit -m "CommittingChanges"
 git push
-
+####################if error with  just enter passphrase for key '/root/.ssh/id_rsa' every time---->> #ssh-add
 ###################################PULL on Instance########################################################################
 On Linux Instance:
 ssh-keygen -t rsa -b 4096 -C "mohanreddy0532@gmail.com"

@@ -3,7 +3,8 @@
 ## TO print an output in Shell we can use either printf command or echo command.
 ## Our choice is echo command, because it is more easier and less syntax-full than printf
 
-echo Hello World
+echo Hello World;
+uname -a;
 
 ## Print two lines
 echo Hello

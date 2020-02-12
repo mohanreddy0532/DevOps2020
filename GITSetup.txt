@@ -49,4 +49,19 @@ cd feb2020
 #git clone <URL>
 git clone https://github.com/mohanreddy0532/Feb2020
 ls
-==========================Added Date in Comments=================
+=================================================================================
+Ignore UserId & PWD:
+----------
+[root@oc3818167352 Feb2020]# cat .git/config 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://mohanreddy0532:L!pq36im@github.com/mohanreddy0532/Feb2020
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[root@oc3818167352 Feb2020]# 

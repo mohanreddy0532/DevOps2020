@@ -21,7 +21,7 @@ Please make sure you have the correct access rights
 and the repository exists.#######################################
 
 ssh-keygen -t rsa -b 4096 -C "mohanreddy0532@gmail.com"
-eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"  ##This will avois Error enter passphrase for key '/root/.ssh/id_rsa' every time##
 cat /root/.ssh/id_rsa.pub 
 Add to GIT Settings---> click SSH and GPG keys.
 -------------------------------------

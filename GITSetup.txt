@@ -34,7 +34,7 @@ git add -A
 git commit -m "CommittingChanges"
 git push
 
-###########################################################################################################
+###################################PULL on Instance########################################################################
 On Linux Instance:
 ssh-keygen -t rsa -b 4096 -C "mohanreddy0532@gmail.com"
 eval "$(ssh-agent -s)"

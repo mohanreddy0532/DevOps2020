@@ -16,5 +16,5 @@ echo 'Value of $@ =' $@
 ## All arguments which are parsed can be obtained from $* and $@
 
 echo 'Value of $# =' $#
-echo 'Value of $n =' $n
+echo 'Value of $n =' $n  #not working
 # Number of arguments parsed

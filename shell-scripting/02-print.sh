@@ -12,7 +12,7 @@ echo Hello
 echo World
 
 # \n esc seq is available to print new line
-echo Hello \n World
+echo Hello\nWorld
 
 # When you use escape sequences like \n you are suppose to use single or double quotes for the input.
 # Preferred quotes are Double QUotes.
@@ -22,6 +22,9 @@ echo "Hello\nWorld"
 # ESC seq can be enabled only with -e option enabled in echo command.
 
 echo -e  "Hello\nWorld"
+
+#It will make a Pop Up sound.
+echo -e "\a"
 
 ## \t to print tab space.
 

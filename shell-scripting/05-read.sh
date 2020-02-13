@@ -7,7 +7,7 @@ echo Hello Lets Start read inputs;
 read -p 'Enter your name: ' name
 read -p 'Enter your Course: ' course
 
-echo -e "Congratulation, Your name $name is selected for $course course "
+echo  "Congratulation, Your name $name is selected for $course course "
 
 ## Scripts most times run automated in background and not run by a user manually. Those cases read command cannot help. Read command will be helpful only if the script definetly run by a user.
 # Hence read command is not much preferred one we choose the other alternative.

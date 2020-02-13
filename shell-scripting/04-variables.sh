@@ -54,4 +54,4 @@ echo "Value of B_E = $B_E"
 # Ex: export B_E=DevOps
 
 export B_E=DevOps
-sh variables.sh
+sh 04.variables.sh

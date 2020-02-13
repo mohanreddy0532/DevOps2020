@@ -6,7 +6,7 @@
 echo Hello World;
 uname -a;
 
-date +F;
+`date +F`;
 
 ## Print two lines
 echo Hello

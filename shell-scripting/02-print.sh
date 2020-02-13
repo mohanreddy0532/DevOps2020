@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo Hello Lets Start printing;
+echo Hello Lets Start Printing;
 ## TO print an output in Shell we can use either printf command or echo command.
 ## Our choice is echo command, because it is more easier and less syntax-full than printf
 

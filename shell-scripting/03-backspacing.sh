@@ -1,3 +1,4 @@
+#########Not Working:
 #!/usr/bin/env bash
 
 echo -ne "Hello\b\b\b\b\b"

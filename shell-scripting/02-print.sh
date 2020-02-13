@@ -6,14 +6,13 @@
 echo Hello World;
 uname -a;
 
-`date +F`;
 
 ## Print two lines
 echo Hello
 echo World
 
 # \n esc seq is available to print new line
-echo Hello\nWorld
+echo Hello \n World
 
 # When you use escape sequences like \n you are suppose to use single or double quotes for the input.
 # Preferred quotes are Double QUotes.

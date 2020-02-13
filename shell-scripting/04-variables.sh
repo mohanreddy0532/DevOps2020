@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo Hello
 # When we assign a name to a set of data , that is called a variable.
 # In shell we can declare variable using, VAR_NAME=DATA
 # For example

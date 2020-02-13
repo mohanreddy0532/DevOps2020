@@ -27,6 +27,10 @@ echo -e  "Hello\nWorld"
 echo -e "\e[31m Youwill Hear Sound"
 echo -e "\a"
 
+#Print in Same line
+echo -ne 'foo\b\b\b\b\b\b';sleep 2;echo ' bar123 '
+
+
 ## \t to print tab space.
 
 ## Print text in colors  using \e

@@ -6,6 +6,8 @@
 echo Hello World;
 uname -a;
 
+date +F;
+
 ## Print two lines
 echo Hello
 echo World

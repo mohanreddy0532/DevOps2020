@@ -9,7 +9,7 @@ echo 'Value of $0 =' $0
 echo 'Value of $1 =' $1
 # $1 is first argument, $2 is second argument and so on.
 
-echo "Congratulations, Your name $1 is selected for $2 course"
+echo "Congratulations, Your name $0 is selected for $1 course"
 
 echo 'Value of $* =' $*
 echo 'Value of $@ =' $@

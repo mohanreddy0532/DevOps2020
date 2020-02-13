@@ -51,7 +51,6 @@ echo $i
 echo "Value of B_E = $B_E"
 
 # Variables on terminal can be accessed inside the script if those are exported using export command
-# Ex: export B_E=DevOps
+# Ex: export B_E=DevOps and run sh 04.variables.sh
 
-export B_E=DevOps
-sh 04.variables.sh
+

@@ -21,9 +21,9 @@ exit 11
 echo * * * * 
 echo "* * * *"
 
-a=10
-echo a;
-echo "Value os a= $a";
+#a=10
+#echo a;
+#echo "Value of a= $a";
 
-echo "Today Daye is = `date; `"
-echo "Today Daye is = `date +%F; `"
+echo "Today Date is = `date; `"
+echo "Today Date is = `date +%F; `"

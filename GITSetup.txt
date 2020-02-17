@@ -59,7 +59,7 @@ Ignore UserId & PWD:
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://mohanreddy0532:L!pq36im@github.com/mohanreddy0532/Feb2020
+	url = https://mohanreddy0532:<password>@github.com/mohanreddy0532/Feb2020
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 	remote = origin

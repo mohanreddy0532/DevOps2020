@@ -4,7 +4,7 @@
 ##VARIABLES
 LOG=/tmp/project.log
 touch $LOG              
-mv $LOG $LOG-$RANDOM  #moving old log to Random file before creating a new one.
+mv $LOG $LOG-$`date`  #moving old log to Random file before creating a new one.
 
 ##Functions
 Heading_F() {

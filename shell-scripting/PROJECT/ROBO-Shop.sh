@@ -6,7 +6,7 @@
 
 Heading_F() {
   
-      echo -e "$1"
+      echo -e "\n\e$1"
  
 }
 

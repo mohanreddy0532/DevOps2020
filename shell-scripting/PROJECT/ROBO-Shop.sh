@@ -12,14 +12,29 @@ Heading_F() {
 
 
 
-
+MongoDB_F() {
 Heading_F "MongoDB SetUp Start"
 echo Installing MongoDB
 echo Starting MongoDB
 
+}
 
+RabbitMQ_F () {
 Heading_F "RabbitMQ SetUp Start"
 echo Installing RabbitMQ
 echo Starting RabbitMQ
 
+}
 
+
+#Redis
+#MySQL
+#Cart
+#Catalogue
+#Dispatch
+#USer
+#Web
+
+##Main Program
+MongoDB_F
+RabbitMQ_F

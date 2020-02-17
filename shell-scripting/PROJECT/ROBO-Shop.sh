@@ -11,11 +11,19 @@ Heading_F() {
 }
 
 
+Print () {
+
+      echo -e "\e[1;5m ====> $1 $2 \e[0m"
+
+}
 
 MongoDB_F() {
 Heading_F "MongoDB SetUp Start"
 echo Installing MongoDB
 echo Starting MongoDB
+program_name=MongoDB
+print $program_name "Installing MongoDB"
+print $program_name "Starting MongoDB"
 
 }
 

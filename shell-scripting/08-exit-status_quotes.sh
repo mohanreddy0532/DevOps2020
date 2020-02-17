@@ -25,5 +25,5 @@ echo "* * * *"
 #echo a;
 #echo "Value of a= $a";
 
-echo "Today Date is = `date; `"
+echo "Today Date is = `date;`"
 echo "Today Date is = `date +%F; `"

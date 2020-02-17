@@ -33,7 +33,7 @@
 #### INPUT REDIRECTOR
 # grep root < /etc/passwd
 mysql < /tmp/schema.sql
-=====================================
+########################################
 mysql -t < /tmp/schema.sql
 
 #cat /tmp/schema.sql

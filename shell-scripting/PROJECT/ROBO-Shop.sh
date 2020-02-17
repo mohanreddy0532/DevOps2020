@@ -22,8 +22,8 @@ Heading_F "MongoDB SetUp Start"
 echo Installing MongoDB
 echo Starting MongoDB
 program_name=MongoDB
-print $program_name "Installing MongoDB"
-print $program_name "Starting MongoDB"
+Print $program_name "Installing MongoDB"
+Print $program_name "Starting MongoDB"
 
 }
 

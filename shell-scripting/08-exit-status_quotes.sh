@@ -14,3 +14,16 @@ echo $?
 exit 11
 
 # if an exit status is not given in the script then the last executed command exit status is used by shell script also.
+
+
+
+#######Quotes######
+echo * * * * 
+echo "* * * *"
+
+a=10
+echo a;
+echo "Value os a= $a";
+
+echo "Today Daye is = `date; `"
+echo "Today Daye is = `date +%F; `"

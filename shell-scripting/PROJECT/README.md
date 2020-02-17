@@ -29,4 +29,18 @@ Starting MongoDB
 ====>  MongoDB : Installing MongoDB 
 ====>  MongoDB : Starting MongoDB 
 ==============================================================================================================
--------------------------------------D45-2020-02-14-SESSION-21-----------------------------------------------
+-------------------------------------D45-2020-02-14-SESSION-21-----@7:00Mins------------------------------------------
+Installing MongoDB:
+
+curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mongodb/install.sh | bash & >> $LOG #Check LOG Variable for installation Logs
+Get RAW installation script from Linuxautomations.
+Create a LOG varibale for installation Logs.
+
+##VARIABLES
+LOG=/tmp/project.log
+touch $LOG              
+mv $LOG $LOG-$RANDOM  #moving old log to Random file before creating a new one.
+
+Create a Heading in Log file under Print Function:
+echo -e "\e[1;32m >>>>>>>>>>>>>>>>>>>>>>> $2 <<<<<<<<<<<<<<<<<<<<\e[0m"	#Heading in Log file /tmp/project.log
+

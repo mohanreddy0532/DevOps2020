@@ -31,6 +31,9 @@ RabbitMQ_F () {
 Heading_F "RabbitMQ SetUp Start"
 echo Installing RabbitMQ
 echo Starting RabbitMQ
+program_name=RabbitMQ
+Print $program_name "Installing RabbitMQ"
+Print $program_name "Starting RabbitMQ"
 
 }
 

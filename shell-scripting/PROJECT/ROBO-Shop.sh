@@ -6,7 +6,7 @@
 
 Heading_F() {
   
-      echo -e "\e[35m$1"
+      echo -e "\e[35m$1\e[0m"
  
 }
 

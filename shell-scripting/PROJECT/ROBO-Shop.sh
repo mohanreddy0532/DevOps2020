@@ -13,7 +13,7 @@ Heading_F() {
 
 Print () {
 
-      echo -e "\e[1;5m====> $1 \e[1;0m: $2 \e[0m"
+      echo -e "\e[1;5m====> \e[0m $1 \e[1;0m: $2 \e[0m"
 
 }
 

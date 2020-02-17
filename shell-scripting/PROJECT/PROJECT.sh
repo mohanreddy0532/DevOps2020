@@ -11,7 +11,7 @@ mv $LOG $LOG-$RANDOM
 ## Functions
 
 Head() {
-    echo -e "\n\e[1;33m>>>>>>>>>>>>>>>>>  \e[4m$1\e[0m  \e[1;33m<<<<<<<<<<<<<<<<<<<\e[0m"
+    echo -e "\n\e[1;33m>>>>>>>>>>>>>>>>>  \e[4m $1 \e[0m  \e[1;33m<<<<<<<<<<<<<<<<<<<\e[0m"
  }
 
 Print() {
@@ -211,14 +211,14 @@ cp /tmp/robo-shop/rsyslog.conf /etc/rsyslog.d/01-robo-shop.conf
 systemctl restart rsyslog
 
 case $1 in
-    mongodb) MongoDB_F ;;
+    mongodb)  MongoDB_F ;;
     rabbitmq) RabbitMQ_F ;;
-    mysql) MySQL_F ;;
-    redis) Redis_F ;;
-    nodejs) NodeJS_F ;;
+    mysql) 	  MySQL_F ;;
+    redis)    Redis_F ;;
+    nodejs)   NodeJS_F ;;
     catalogue) Catalogue_App_F ;;
-    user) User_App_F ;;
-    cart) Cart_App_F ;;
+    user)     User_App_F ;;
+    cart)     Cart_App_F ;;
     shipping) Shipping_App_F ;;
     all)
             MongoDB_F

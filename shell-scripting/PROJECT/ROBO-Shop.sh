@@ -13,7 +13,7 @@ Heading_F() {
 
 Print () {
 
-      echo -e "\e[1;5m====> \e[0m $1 \e[1;0m: $2 \e[0m"
+      echo -e "\e[1;5;31m====> \e[0m $1 \e[1;0m: $2 \e[0m"
 
 }
 
@@ -51,4 +51,3 @@ MongoDB_F
 RabbitMQ_F
 
 
-Print "End of Program"

@@ -37,7 +37,7 @@ sample1
 echo "End of Main Program"
 
 ### Observations
-## Functions are always to be written before main program
+## Functions are always to be written before main program**************
 ## Variables from main program can be accessed in function
 ## Variables in Function can be accessed in Main Program as well.
 ## Any variables declared inside a function with local , those cannot be accessed in our main program.

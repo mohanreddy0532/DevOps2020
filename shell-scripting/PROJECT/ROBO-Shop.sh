@@ -22,8 +22,8 @@ Heading_F "MongoDB SetUp Start"
 echo Installing MongoDB
 echo Starting MongoDB
 program_name=MongoDB
-Print $program_name "Installing MongoDB"
-Print $program_name "Starting MongoDB"
+Print $program_name "Installing MongoDB"  #$1 Function
+Print $program_name "Starting MongoDB"    #$2 Function
 
 }
 
@@ -49,3 +49,6 @@ Print $program_name "Starting RabbitMQ"
 ##Main Program
 MongoDB_F
 RabbitMQ_F
+
+
+Print "End of Program"

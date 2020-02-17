@@ -1,7 +1,8 @@
 ROBO-Shop Project Start:
 ------------------------------D45-2020-02-13-SESSION-20 @50Mins------------------------------
 Creare a HEAD() funstion for Title: Mango DB and RabbitMQ
-$1=First argument to the function.
+
+$1=First argument to the Function.
 
 echo -e "\n\e[1;34m>>>>>>>>>>>>>>>>>  \e[1;4;5m $1 \e[0m  \e[1;34m<<<<<<<<<<<<<<<<<<<\e[0m"
 
@@ -16,3 +17,13 @@ echo -e "\n\e[1;34m>>>>>>>>>>>>>>>>>  \e[1;4;5m $1 \e[0m  \e[1;34m<<<<<<<<<<<<<<
 Create MongoDB & RabbitMQ Functions
 MongoDB_F
 RabbitMQ_F
+------------------------------
+Print () {     echo -e "\e[1;5m====> \e[0m $1 \e[1;0m: $2 \e[0m"  }
+$1=First argument to the Function.
+$2=Second argument to the Function.
+
+>>>>>>>>>>>>>>>>>   MongoDB SetUp Start   <<<<<<<<<<<<<<<<<<<
+Installing MongoDB
+Starting MongoDB
+====>  MongoDB : Installing MongoDB 
+====>  MongoDB : Starting MongoDB 

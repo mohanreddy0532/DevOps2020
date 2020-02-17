@@ -27,7 +27,7 @@ echo Installing MongoDB
 echo Starting MongoDB
 program_name=MongoDB
 Print $program_name "Installing MongoDB"  #$1 Function
-curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mongodb/install.sh | bash & >> $LOG #Check LOG Variable for installation Logs
+curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mongodb/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
 Print $program_name "Starting MongoDB"    #$2 Function
 
 }

@@ -39,7 +39,7 @@
 #show tables;
 #DESC <table_name>
 
-mysql < /tmp/schema.sql
+mysql < /tmp/schema.sql  #Standarad In-putting
 
 mysql -t < /tmp/schema.sql
 

@@ -32,8 +32,15 @@
 
 #### INPUT REDIRECTOR
 # grep root < /etc/passwd
+#####DB Commands:############
+#mysql
+#show DATABSES;
+# use <DB_Name>
+#show tables;
+#DESC <table_name>
+
 mysql < /tmp/schema.sql
-########################################
+
 mysql -t < /tmp/schema.sql
 
 #cat /tmp/schema.sql

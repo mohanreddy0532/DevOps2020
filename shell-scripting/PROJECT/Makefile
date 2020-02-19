@@ -15,3 +15,6 @@ mongodb: ## Install MongoDB for Application
 
 rabbitmq: ## Install RabbitMQ for Application
 	@sh ROBO-Shop.sh rabbitmq
+
+hello:
+	@ls -ltr

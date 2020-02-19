@@ -60,4 +60,7 @@ Stat() 	{						####To Check MongoDB installation Status
 		}
 ----------------------------------------
 Start MongoDB Service;
+systemctl enable mongod &>>$LOG    #Case sensitive
+systemctl start mongod  &>>$LOG
+Stat $?  "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
 

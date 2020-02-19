@@ -59,7 +59,7 @@ RabbitMQ_F () {
     Print $program_name "Starting $program_name"
     systemctl enable rabbitmq-server &>>$LOG
     systemctl start rabbitmq-server &>>$LOG
-    Stat $? "Starting $program_name Service"    ####To Check MongoDB start Status called Function
+    Stat $? "Starting $program_name Service"    ####To Check RabbitMQ start Status called Function
 }
 
 MySQL_F() {
@@ -74,8 +74,20 @@ MySQL_F() {
     Stat $? "Starting $program_name Service"
 }
 
-#Redis
-#MySQL
+Redis_F () {
+	Heading_F "Redis Setup"
+    ## All steps for Redis Install
+    program_name=Redis
+    Print $program_name "Installing $program_name"
+    curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/redis/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
+    Stat $? "Installation of $program_name"
+    Print $program_name "Starting $program_name"
+    systemctl enable redis &>>$LOG
+    systemctl start redis &>>$LOG
+    Stat $? "Starting $program_name Service"    ####To Check Redis start Status called Function
+}
+
+
 #Cart
 #Catalogue
 #Dispatch
@@ -89,5 +101,6 @@ case $1 in
 	mongodb)  MongoDB_F  ;;
 	rabbitmq) RabbitMQ_F ;;
 	mysql) 	  MySQL_F ;;
+	redis) 	  Redis_F ;;
 
 esac

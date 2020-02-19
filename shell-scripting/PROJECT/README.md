@@ -81,3 +81,6 @@ Creating Make File: D45-2020-02-14-SESSION-21 @31:20Mins
 make
 make help
 
+-----------------
+Installing MySQL:not working
+Installing Redis:

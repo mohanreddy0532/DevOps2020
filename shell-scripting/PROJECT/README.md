@@ -75,3 +75,5 @@ Start RabbitMQ Service;
     systemctl enable rabbitmq-server &>>$LOG
     systemctl start rabbitmq-server &>>$LOG
     Stat $? "Starting $program_name Service"
+----------------------------------------------------------
+Creating Make File: D45-2020-02-14-SESSION-21 @31:20Mins

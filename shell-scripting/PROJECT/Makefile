@@ -21,4 +21,4 @@ mysql: ## Install MySQL for Application
 
 redis: ## Install Redis for Application
 	@sh ROBO-Shop.sh redis
-	
+

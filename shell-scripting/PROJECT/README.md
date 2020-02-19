@@ -63,7 +63,7 @@ Start MongoDB Service;
 systemctl enable mongod &>>$LOG    #Case sensitive
 systemctl start mongod  &>>$LOG
 Stat $?  "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
-
+netstat -lntp
 -----------------
 Installing RabbitMQ:
 
@@ -75,6 +75,7 @@ Start RabbitMQ Service;
     systemctl enable rabbitmq-server &>>$LOG
     systemctl start rabbitmq-server &>>$LOG
     Stat $? "Starting $program_name Service"
+netstat -lntp
 ----------------------------------------------------------
 Creating Make File: D45-2020-02-14-SESSION-21 @31:20Mins
 
@@ -82,5 +83,14 @@ make
 make help
 
 -----------------
+
 Installing MySQL:not working
+
+
+
 Installing Redis:
+redis_F () {
+	Heading_F "Redis Setup"
+    curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/redis/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
+netstat -lntp
+-----------------------------------------------------------

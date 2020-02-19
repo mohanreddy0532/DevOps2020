@@ -1,4 +1,4 @@
-ONESHELL:
+.ONESHELL:
 .SHELL := /usr/bin/bash
 .PHONY: All Robo-SHop Application
 

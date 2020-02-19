@@ -72,7 +72,8 @@ RabbitMQ_F () {
 #Web
 
 ##Main Program
-MongoDB_F
-RabbitMQ_F
 
+case $1 in
+	mongodb)  MongoDB_F  ;;
+	rabbitmq) RabbitMQ_F ;;
 

@@ -4,7 +4,7 @@
 ##VARIABLES
 LOG=/tmp/project.log
 touch $LOG              
-mv $LOG $LOG-$`date`  #moving old log to Random file before creating a new one.
+mv $LOG $LOG-$RANDOM  #moving old log to Random file before creating a new one.
 
 ##Functions
 Heading_F() {
@@ -30,7 +30,7 @@ Stat() 	{						####To Check MongoDB installation Status
 				;;
 			*)  
 				echo -e "\e[32m  ==> $program_name:  $2 is FAILED" 		
-				echo -e "\n\e[32m Check the LOG File errors ::: LOG-FILE = $LOG " 
+				echo -e "\n\e[32m Check the LOG File errors ::: LOG-FILE = $LOG" 
 				;;
 		esac
 

@@ -62,6 +62,17 @@ RabbitMQ_F () {
     Stat $? "Starting $program_name Service"    ####To Check MongoDB start Status called Function
 }
 
+MySQL_F() {
+    Head "MySQL Setup"
+    program_name=MySQL
+    Print $program_name "Installing $program_name"
+    curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mysql/install-5.7.sh | bash &>>$LOG
+    Stat $? "Installation of $program_name"
+    Print $program_name "Starting $program_name"
+    systemctl enable mysqld &>>$LOG
+    systemctl start mysqld &>>$LOG
+    Stat $? "Starting $program_name Service"
+}
 
 #Redis
 #MySQL
@@ -77,5 +88,6 @@ case $1 in
 
 	mongodb)  MongoDB_F  ;;
 	rabbitmq) RabbitMQ_F ;;
+	mysql) 	  MySQL_F ;;
 
 esac

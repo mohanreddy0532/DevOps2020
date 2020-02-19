@@ -1,6 +1,6 @@
 .ONESHELL:
 .SHELL := /usr/bin/bash
-.PHONY: all mongodb
+.PHONY: all ROBO-Shop
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[35m%-10s\033[0m %s\n", $$1, $$2}'
@@ -16,5 +16,3 @@ mongodb: ## Install MongoDB for Application
 rabbitmq: ## Install RabbitMQ for Application
 	@sh ROBO-Shop.sh rabbitmq
 
-hello:
-	@ls -ltr

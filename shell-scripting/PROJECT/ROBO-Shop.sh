@@ -42,7 +42,7 @@ MongoDB_F() {
 	Print $program_name "Installing MongoDB"  #$1 Function
 	curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mongodb/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
 	Stat $? "Install of MongoDB"       ####To Check MongoDB installation Status called Function
-	Print $program_name "Starting MongoDB"    #$2 Function
+	Print $program_name "Starting $program_name"    #$2 Function
 	systemctl enable mongod &>>$LOG
 	systemctl start mongod  &>>$LOG
 	Stat $?  "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
@@ -54,12 +54,12 @@ RabbitMQ_F () {
     ## All steps for RabbitmQ Install
     program_name=RabbitMQ
     Print $program_name "Installing $program_name"
-    curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/rabbitmq/install.sh | bash &>>$LOG
+    curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/rabbitmq/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
     Stat $? "Installation of $program_name"
     Print $program_name "Starting $program_name"
     systemctl enable rabbitmq-server &>>$LOG
     systemctl start rabbitmq-server &>>$LOG
-    Stat $? "Starting $program_name Service"
+    Stat $? "Starting $program_name Service"    ####To Check MongoDB start Status called Function
 }
 
 

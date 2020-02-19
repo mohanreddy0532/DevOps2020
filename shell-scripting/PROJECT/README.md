@@ -64,3 +64,14 @@ systemctl enable mongod &>>$LOG    #Case sensitive
 systemctl start mongod  &>>$LOG
 Stat $?  "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
 
+-----------------
+Installing RabbitMQ:
+
+curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/rabbitmq/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
+Get RAW installation script from Linuxautomations.
+Create a LOG varibale for installation Logs.
+
+Start RabbitMQ Service;
+    systemctl enable rabbitmq-server &>>$LOG
+    systemctl start rabbitmq-server &>>$LOG
+    Stat $? "Starting $program_name Service"

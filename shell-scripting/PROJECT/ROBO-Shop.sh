@@ -74,6 +74,8 @@ RabbitMQ_F () {
 ##Main Program
 
 case $1 in
+
 	mongodb)  MongoDB_F  ;;
 	rabbitmq) RabbitMQ_F ;;
 
+esac

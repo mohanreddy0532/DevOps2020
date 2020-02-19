@@ -25,10 +25,10 @@ Stat() 	{						####To Check MongoDB installation Status
 
 		case $1 in
 			0)
-				echo -e "\e[32m  ==> $program_name:  $2 is Succssful \e[0" 
+				echo -e "\e[32m  ==> $program_name:  $2 is Succssful \e[0m" 
 				;;
 			*)  
-				echo -e "\e[32m  ==> $program_name:  $2 is FAILED  \e[0" 		
+				echo -e "\e[32m  ==> $program_name:  $2 is FAILED  \e[0m" 		
 				echo -e "\n\e[32m Check the LOG File errors ::: LOG-FILE = $LOG " 
 				;;
 		esac

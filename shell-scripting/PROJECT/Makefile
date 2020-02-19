@@ -1,9 +1,9 @@
 ONESHELL:
 .SHELL := /usr/bin/bash
-.PHONY: all mongodb
+.PHONY: one two
 
 one:
 	@ls -ltr
 
 two:
- 	@date;	
+ 	@date	

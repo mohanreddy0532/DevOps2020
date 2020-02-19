@@ -14,8 +14,7 @@ Heading_F() {
 }
 
 
-Print () 
-{
+Print () {
 
 	  echo -e "\e[1;35m >>>>>>>>>>>>>>>>>>>>>>> $2 <<<<<<<<<<<<<<<<<<<<\e[0m"	#Heading in Log file /tmp/project.log
       echo -e "\e[1;5;31m====>\e[0m `date` = \e[0m \e[32m $1 : \e[36m $2 \e[0m"
@@ -36,8 +35,7 @@ Stat() 	{						####To Check MongoDB installation Status
 
 		}
 
-MongoDB_F() 
-{
+MongoDB_F() {
 
 Heading_F "MongoDB SetUp Start"
 echo Installing MongoDB
@@ -59,7 +57,12 @@ echo Installing RabbitMQ
 echo Starting RabbitMQ
 program_name=RabbitMQ
 Print $program_name "Installing RabbitMQ"
-Print $program_name "Starting RabbitMQ"
+curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/rabbitmq/install.sh | bash $>>$LOG
+Stat $? "Install of RabbitMQ"       ####To Check RabbitMQ installation Status called Function
+Print $program_name "Starting RabbitMQ"    #$2 Function
+systemctl enable rabbitmq-server &>>$LOG
+systemctl start rabbitmq-server  &>>$LOG
+Stat $?  "Starting RabbitMQ Service"       ####To Check RabbitMQ start Status called Function
 
 }
 

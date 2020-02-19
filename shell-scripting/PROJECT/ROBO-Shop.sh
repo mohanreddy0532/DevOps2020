@@ -14,20 +14,37 @@ Heading_F() {
 }
 
 
-Print () {
+Print () 
+{
 
-	  echo -e "\e[1;32m >>>>>>>>>>>>>>>>>>>>>>> $2 <<<<<<<<<<<<<<<<<<<<\e[0m"	#Heading in Log file /tmp/project.log
+	  echo -e "\n\e[1;32m >>>>>>>>>>>>>>>>>>>>>>> $2 <<<<<<<<<<<<<<<<<<<<\e[0m"	#Heading in Log file /tmp/project.log
       echo -e "\e[1;5;31m====>`date` = \e[0m \e[32m $1 : \e[36m $2 \e[0m"
 
 }
 
-MongoDB_F() {
+Stat() 	{
+
+		case $1 in
+			0)
+				echo -e "\e[32m  ==> $program_name:  $2 is Succssful " 
+				;;
+			*)  
+				echo -e "\e[32m  ==> $program_name:  $2 is FAILED" 		
+				echo -e "\n\e[32m Check the LOG File errors ::: LOG-FILE = $LOG " 
+				;;
+		esac
+
+		}
+
+MongoDB_F() 
+{
 Heading_F "MongoDB SetUp Start"
 echo Installing MongoDB
 echo Starting MongoDB
 program_name=MongoDB
 Print $program_name "Installing MongoDB"  #$1 Function
 curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mongodb/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
+Stat $? "Install of MongoDB"
 Print $program_name "Starting MongoDB"    #$2 Function
 
 }

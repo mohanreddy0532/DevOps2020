@@ -50,7 +50,7 @@ MongoDB_F() {
 }
 
 RabbitMQ_F () {
-	Heading "RabbitMQ Setup"
+	Heading_F "RabbitMQ Setup"
     ## All steps for RabbitmQ Install
     program_name=RabbitMQ
     Print $program_name "Installing $program_name"

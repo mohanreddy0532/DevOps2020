@@ -49,7 +49,7 @@ Stat $? "Install of MongoDB"       ####To Check MongoDB installation Status call
 Print $program_name "Starting MongoDB"    #$2 Function
 systemctl enable MongoDB &>>$LOG
 systemctl start MongoDB  &>>$LOG
-stat $? "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
+Stat $?  "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
 
 }
 

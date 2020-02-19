@@ -28,7 +28,7 @@ Installing MongoDB
 Starting MongoDB
 ====>  MongoDB : Installing MongoDB 
 ====>  MongoDB : Starting MongoDB 
-==============================================================================================================
+======================================================================================================================================
 -------------------------------------D45-2020-02-14-SESSION-21-----@7:00Mins------------------------------------------
 Installing MongoDB:
 
@@ -43,4 +43,21 @@ mv $LOG $LOG-$RANDOM  #moving old log to Random file before creating a new one.
 
 Create a Heading in Log file under Print Function:
 echo -e "\e[1;32m >>>>>>>>>>>>>>>>>>>>>>> $2 <<<<<<<<<<<<<<<<<<<<\e[0m"	#Heading in Log file /tmp/project.log
+---------------------------
+Create a Stat Function for checking  MongoDB installation Status
+Stat() 	{						####To Check MongoDB installation Status
+
+		case $1 in
+			0)
+				echo -e "\e[32m  ==> $program_name:  $2 is Succssful " 
+				;;
+			*)  
+				echo -e "\e[32m  ==> $program_name:  $2 is FAILED" 		
+				echo -e "\n\e[32m Check the LOG File errors ::: LOG-FILE = $LOG " 
+				;;
+		esac
+
+		}
+----------------------------------------
+Start MongoDB Service;
 

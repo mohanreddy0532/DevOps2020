@@ -17,7 +17,7 @@ Heading_F() {
 Print () 
 {
 
-	  echo -e "\e[1;32m >>>>>>>>>>>>>>>>>>>>>>> $2 <<<<<<<<<<<<<<<<<<<<\e[0m"	#Heading in Log file /tmp/project.log
+	  echo -e "\e[1;35m >>>>>>>>>>>>>>>>>>>>>>> $2 <<<<<<<<<<<<<<<<<<<<\e[0m"	#Heading in Log file /tmp/project.log
       echo -e "\e[1;5;31m====>\e[0m `date` = \e[0m \e[32m $1 : \e[36m $2 \e[0m"
 
 }

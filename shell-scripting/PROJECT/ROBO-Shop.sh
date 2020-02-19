@@ -36,31 +36,30 @@ Stat() 	{						####To Check MongoDB installation Status
 		}
 
 MongoDB_F() {
-## All steps for MongoDB Install
-Heading_F "MongoDB SetUp Start"
-program_name=MongoDB
-Print $program_name "Installing MongoDB"  #$1 Function
-curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mongodb/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
-Stat $? "Install of MongoDB"       ####To Check MongoDB installation Status called Function
-Print $program_name "Starting MongoDB"    #$2 Function
-systemctl enable mongod &>>$LOG
-systemctl start mongod  &>>$LOG
-Stat $?  "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
+	## All steps for MongoDB Install
+	Heading_F "MongoDB SetUp Start"
+	program_name=MongoDB
+	Print $program_name "Installing MongoDB"  #$1 Function
+	curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mongodb/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
+	Stat $? "Install of MongoDB"       ####To Check MongoDB installation Status called Function
+	Print $program_name "Starting MongoDB"    #$2 Function
+	systemctl enable mongod &>>$LOG
+	systemctl start mongod  &>>$LOG
+	Stat $?  "Starting MongoDB Service"       ####To Check MongoDB start Status called Function
 
 }
 
 RabbitMQ_F () {
-## All steps for RabbitMQ Install
-Heading_F "RabbitMQ SetUp Start"
-program_name=RabbitMQ
-Print $program_name "Installing RabbitMQ"
-curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/rabbitmq/install.sh | bash &>>$LOG
-Stat $? "Install of RabbitMQ"       ####To Check RabbitMQ installation Status called Function
-Print $program_name "Starting RabbitMQ"    #$2 Function
-systemctl enable rabbitmq-server &>>$LOG
-systemctl start rabbitmq-server  &>>$LOG
-Stat $?  "Starting RabbitMQ Service"       ####To Check RabbitMQ start Status called Function
-
+	Heading "RabbitMQ Setup"
+    ## All steps for RabbitmQ Install
+    program_name=RabbitMQ
+    Print $program_name "Installing $program_name"
+    curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/rabbitmq/install.sh | bash &>>$LOG
+    Stat $? "Installation of $program_name"
+    Print $program_name "Starting $program_name"
+    systemctl enable rabbitmq-server &>>$LOG
+    systemctl start rabbitmq-server &>>$LOG
+    Stat $? "Starting $program_name Service"
 }
 
 

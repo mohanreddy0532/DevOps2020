@@ -63,7 +63,7 @@ RabbitMQ_F () {
 }
 
 MySQL_F() {
-    Head "MySQL Setup"
+    Heading_F "MySQL Setup"
     program_name=MySQL
     Print $program_name "Installing $program_name"
     curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/mysql/install-5.7.sh | bash &>>$LOG

@@ -22,3 +22,11 @@ ansible -i inventory all -u centos --private-key=devops.pem -m ping------->cento
 .pem file to .ppk--->For using in Putty D45-2020-02-20-SESSION-26@40Mins
 ---------
 Create gitLab >>>mohanreddy>>>devops>>>ansible.
+
+On Node1:
+Create a config file under cd .ssh/config======>>>this will authenticate gitLab when u run git push commancd using devops.pem file.
+chmod 600 .ssh/config ##Permissions must
+[centos@ip-172-31-37-166 .ssh]$ cat config
+Host *
+   IdentityFile ~/devops.pem
+[centos@ip-172-31-37-166 .ssh]$

@@ -33,7 +33,7 @@ ansible -i inventory all -u centos --private-key=devops.pem -m ping------->cento
 ---------
 Create gitLab >>>mohanreddy>>>devops>>>ansible.
 
-On Node1:
+On AnsibleServer:
 
 Create a config file under cd .ssh/config======>>>this will authenticate gitLab when u run git push commancd using devops.pem file.
 

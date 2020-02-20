@@ -39,7 +39,14 @@ Create a config file under cd .ssh/config======>>>this will authenticate gitLab 
 
 chmod 600 .ssh/config ##Permissions must
 
-[centos@ip-172-31-37-166 .ssh]$ cat config
+cat config
 Host *
    IdentityFile ~/devops.pem
-[centos@ip-172-31-37-166 .ssh]$
+
+
+
+========================
+
+
+
+

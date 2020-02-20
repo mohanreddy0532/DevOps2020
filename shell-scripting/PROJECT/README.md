@@ -94,5 +94,5 @@ redis_F () {
     curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/redis/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
 netstat -lntp
 ===============================================================================================================================================================
----------------------------------------D45-2020-02-15-SESSION-22 @3:00Mins
+---------------------------------------D45-2020-02-15-SESSION-22 @3:00Mins---------------------------------------
 Upgrade  t2-micro instance

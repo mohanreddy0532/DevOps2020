@@ -18,7 +18,9 @@ git push -u origin master
 Permission denied (publickey).
 fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
-and the repository exists.#######################################
+and the repository exists.
+
+#######################################
 
 ssh-keygen -t rsa -b 4096 -C "mohanreddy0532@gmail.com"
 eval "$(ssh-agent -s)"  ##This will avoid
@@ -34,6 +36,7 @@ git add -A
 git commit -m "CommittingChanges"
 git push
 ####################if error with  just enter passphrase for key '/root/.ssh/id_rsa' every time---->> #ssh-add
+
 ###################################PULL on Instance########################################################################
 On Linux Instance:
 ssh-keygen -t rsa -b 4096 -C "mohanreddy0532@gmail.com"

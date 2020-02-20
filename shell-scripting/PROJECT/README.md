@@ -27,7 +27,7 @@ $2=Second argument to the Function.
 Installing MongoDB
 Starting MongoDB
 ====>  MongoDB : Installing MongoDB 
-====>  MongoDB : Starting MongoDB 
+====>  MongoDB : Starting MongoDB
 ======================================================================================================================================
 -------------------------------------D45-2020-02-14-SESSION-21-----@7:00Mins------------------------------------------
 Installing MongoDB:
@@ -93,4 +93,6 @@ redis_F () {
 	Heading_F "Redis Setup"
     curl -s https://raw.githubusercontent.com/linuxautomations/labautomation/master/tools/redis/install.sh | bash &>>$LOG #Check LOG Variable for installation Logs
 netstat -lntp
------------------------------------------------------------
+===============================================================================================================================================================
+---------------------------------------D45-2020-02-15-SESSION-22 @3:00Mins
+Upgrade  t2-micro instance

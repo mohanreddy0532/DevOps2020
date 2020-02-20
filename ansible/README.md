@@ -20,4 +20,5 @@ ansible -i inventory all -u root -k -m ping------>root user/pwd
 ansible -i inventory all -u centos --private-key=devops.pem -m ping------->centos user/pem key  D45-2020-02-20-SESSION-26@46:00Mins
 -------
 .pem file to .ppk--->For using in Putty D45-2020-02-20-SESSION-26@40Mins
-
+---------
+Create gitLab >>>mohanreddy>>>devops>>>ansible.

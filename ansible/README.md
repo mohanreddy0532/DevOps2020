@@ -25,7 +25,9 @@ Create gitLab >>>mohanreddy>>>devops>>>ansible.
 
 On Node1:
 Create a config file under cd .ssh/config======>>>this will authenticate gitLab when u run git push commancd using devops.pem file.
+
 chmod 600 .ssh/config ##Permissions must
+
 [centos@ip-172-31-37-166 .ssh]$ cat config
 Host *
    IdentityFile ~/devops.pem

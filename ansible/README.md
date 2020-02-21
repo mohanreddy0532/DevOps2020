@@ -74,4 +74,14 @@ ansible all -m shell -a uptime
 =============================================
 Start with PlayBook for multiple Modules at a time:@D45-2020-02-20-SESSION-26@1:06:00Mins
 =======================================================
-Create a sample playbook 01.sample.yml
+Create a sample playbook 01.sample.yml file
+=======================================
+
+D45-2020-02-21-SESSION-27 @23:30Mins
+
+Ansible Best Practices: https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout
+------------
+To list all Hosts in Inventory:
+
+ansible -i inventory all --list-hosts
+

@@ -69,3 +69,5 @@ Ignore UserId & PWD:
 	merge = refs/heads/master
 [root@oc3818167352 Feb2020]# 
 ===============================================================================================
+
+git config --list --->show-origin

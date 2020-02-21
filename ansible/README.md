@@ -42,13 +42,27 @@ chmod 600 .ssh/config ##Permissions must
 cat config
 Host *
    IdentityFile ~/devops.pem
+   ---------------------
 
 
 
-====================================THANKYOU 21 FEB 2020=====================================
+==========================================================================
+D45-2020-02-20-SESSION-26@1:00:00Mins
+Automate inventory file by editing ansible.cfg as below.
+
+inventory       = /home/centos/devops/ansible
+
+ansible all -u centos --private-key=~/devops.pem -m ping
 
 
+Automate -u <User> by editing ansible.cfg as below.
 
+remote_user = centos
 
+ansible all --private-key=~/devops.pem -m ping
 
- 				
+Automate Private-key by editing ansible.cfg as below.
+
+private_key_file = /home/centos/devops.pem
+
+ansible all -m ping

@@ -71,3 +71,6 @@ Using shell module:
 
 ansible all -m shell -a uptime
 
+=============================================
+Start with PlayBook for multiple Modules at a time:@D45-2020-02-20-SESSION-26@1:06:00Mins
+=======================================================

@@ -66,3 +66,8 @@ Automate Private-key by editing ansible.cfg as below.
 private_key_file = /home/centos/devops.pem
 
 ansible all -m ping
+---------------------------------
+Using shell module:
+
+ansible all -m shell -a uptime
+

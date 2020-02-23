@@ -73,3 +73,16 @@ Ignore UserId & PWD:
 git config --list --->show-origin
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
+
+=================================================
+
+Error: Your local changes to the following files would be overwritten by merge:
+	ansible/inventory
+Please, commit your changes or stash them before you can merge.
+Aborting
+
+git stash
+git pull
+
+
+==============thankyou===========__

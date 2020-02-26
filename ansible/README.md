@@ -88,9 +88,13 @@ ansible -i inventory all --list-hosts
 01.Sample.yml  @14:00Mins
 
 Ansible Playbooks creation,YML files.
+
 Inventory Options:
+
 XML,JSON,YAML
+
 Yet another markup language (YAML)
+
 YAML to JSON convertion: yq
 =================================================================================
 ---------------------------D45-2020-02-22-SESSION-28-----------------------------

@@ -84,4 +84,6 @@ Ansible Best Practices: https://docs.ansible.com/ansible/latest/user_guide/playb
 To list all Hosts in Inventory:
 
 ansible -i inventory all --list-hosts
+=================================================================================
+---------------------------D45-2020-02-22-SESSION-28-----------------------------
 

@@ -50,7 +50,7 @@ Host *
 D45-2020-02-20-SESSION-26@1:00:00Mins
 Automate inventory file by editing ansible.cfg as below.
 
-inventory       = /home/centos/devops/ansible
+inventory       = /home/centos/devops/ansible/inventory
 
 ansible all -u centos --private-key=~/devops.pem -m ping
 

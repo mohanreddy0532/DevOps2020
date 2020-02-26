@@ -84,6 +84,21 @@ Ansible Best Practices: https://docs.ansible.com/ansible/latest/user_guide/playb
 To list all Hosts in Inventory:
 
 ansible -i inventory all --list-hosts
+
+01.Sample.yml  @14:00Mins
+
+Ansible Playbooks creation,YML files.
+Inventory Options:
+XML,JSON,YAML
+Yet another markup language (YAML)
+YAML to JSON convertion: yq
 =================================================================================
 ---------------------------D45-2020-02-22-SESSION-28-----------------------------
+Ansible PlayBooks:
+02.play-layout.yml @11:49Mins
+03.print.yml    @15:00Mins
+04.Variables.yml @22:00Mins
+
+ansible-playbook playbooks/04.variables.yml
+
 

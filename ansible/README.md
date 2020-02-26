@@ -96,6 +96,7 @@ XML,JSON,YAML
 Yet another markup language (YAML)
 
 YAML to JSON convertion: yq
+
 =================================================================================
 ---------------------------D45-2020-02-22-SESSION-28-----------------------------
 Ansible PlayBooks:

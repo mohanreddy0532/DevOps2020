@@ -1,6 +1,8 @@
 Working on Ansible @20FEB2020
 
-Refer practicals https://gitlab.com/mohanreddy0532/devops
+Refer practicals 
+
+https://gitlab.com/mohanreddy0532/devops
 =============================================
 Install Ansible-Server:
 

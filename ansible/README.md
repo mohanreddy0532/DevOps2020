@@ -150,6 +150,18 @@ Verbose mode: ansible-playbook -vvvv playbooks/06.roles.yml
 =================================================================================
 ---------------------------D45-2020-02-24-SESSION-29-----------------------------
 
-LineIn File & BlockIn File @2:00Mins
+LineIn File & BlockIn File @2:00Mins -------it will change complete line in a file.
 Linein File--->Change entire single line
 BlockIn File--change in a block at a time.
+----
+For change a particular work or port number Use: @17:00Mins
+replace:
+          path: /tmp/mongod.conf
+          regexp: "27017"
+          replace: "27018" 
+---------
+LoadSchema for MongoDB @20:40
+
+Create pre-reqs/tasks/main.yml role @@27:40
+
+Role dependencies:/mongod/meta/main.yml @29:00Mins

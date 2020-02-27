@@ -118,5 +118,36 @@ Variable Priority order:
 ## 6. variables from inventory , hosts 
 ## 7. variables from inventory , group 
 --------------------------------------------------
-Project.yml  @54:00Mins
+
+Create Project.yml  @54:00Mins
 Robo-shop=Mariabd
+
+Copy Module:@54:00Mins
+src:  dest:
+
+Previliage escalations. @58:00Mins
+become: yes #TO Enable SUDO
+
+Creating Roles:@1:00:00Mins for structured data:
+To use Roles it should comtain main.yml #https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
+Created main.yml under : #/home/mtallapu/Desktop/devops/ansible/playbooks/roles/sample/tasks/main.yml
+ansible-playbook playbooks/06.roles.yml
+
+Create mongoRepo: @1:07:00 Mins
+/home/mtallapu/Desktop/devops/ansible/playbooks/roles/mongodb/tasks/main.yml
+Update mongoDB role in project.yml
+Create mongo.repo file in /home/mtallapu/Desktop/devops/ansible/playbooks/roles/mongodb/files
+----
+Start a Service :
+
+-name: Start MongoDB
+  service:
+    name:  mongod
+    state: started  
+    enabled: yes
+
+Verbose mode: ansible-playbook -vvvv playbooks/06.roles.yml    
+=================================================================================
+---------------------------D45-2020-02-24-SESSION-29-----------------------------
+
+

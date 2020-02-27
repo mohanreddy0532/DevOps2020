@@ -162,6 +162,6 @@ replace:
 ---------
 LoadSchema for MongoDB @20:40
 
-Create pre-reqs/tasks/main.yml role @@27:40
+Create pre-reqs/tasks/main.yml role @27:40
 
 Role dependencies:/mongod/meta/main.yml @29:00Mins

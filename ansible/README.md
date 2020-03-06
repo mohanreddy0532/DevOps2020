@@ -162,9 +162,14 @@ replace:
           replace: "27018" 
 
 ---------
-LoadSchema for MongoDB @20:40
+LoadSchema for MongoDB @20:40 and @33:00Mins
 For git
 Create pre-reqs/tasks/main.yml role @27:40
 
 ---------
 Role dependencies:/mongod/meta/main.yml @29:00Mins
+
+----
+09.loop.yml @34:00Mins---to deal with multiple js files.
+
+-------------

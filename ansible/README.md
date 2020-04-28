@@ -27,7 +27,7 @@ host_key_checking=False--->enable not to ask yes/no in ssh
 -------
 ansible -i inventory all -m ping
 
-ansible -i inventory all -u root -k -m ping------>root user/pwd
+ansible -i inventory all -u root -k -m ping------>root user/pwd :DevOps321
 
 ansible -i inventory all -u centos --private-key=devops.pem -m ping------->centos user/pem key  D45-2020-02-20-SESSION-26@46:00Mins
 -------

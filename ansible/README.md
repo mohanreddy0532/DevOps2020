@@ -173,3 +173,4 @@ Role dependencies:/mongod/meta/main.yml @29:00Mins
 09.loop.yml @34:00Mins---to deal with multiple js files.
 
 -------------================
+>>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

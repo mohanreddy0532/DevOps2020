@@ -104,6 +104,9 @@ To list Group of groups servers:
    gen
 #ansible -i inventory grp1 --list-hosts
 
+To check DEV group servers shell command.
+ansible -i inventory DEV -m shell -a uptime
+
 01.Sample.yml  ------->>@14:00Mins
 
 Ansible Playbooks creation,YML files.

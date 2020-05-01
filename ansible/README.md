@@ -82,13 +82,29 @@ Create a sample playbook 01.sample.yml file
 
 D45-2020-02-21-SESSION-27 @23:30Mins
 
-Ansible Best Practices: https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout
+Ansible Best Practices: 
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout
 ------------
+Inventory Setup:@28Mins
+
 To list all Hosts in Inventory:
+#ansible -i inventory all --list-hosts
 
-ansible -i inventory all --list-hosts
+To list only DEV servers:
+   In inventory file make a DEV list:
+   [DEV]
+   server 1
+   server 2
+#ansible -i inventory DEV --list-hosts
 
-01.Sample.yml  @14:00Mins
+To list Group of groups servers:
+   In inventory file make a list:#Group of groups 
+   [grp1:children]
+   DEV
+   gen
+#ansible -i inventory grp1 --list-hosts
+
+01.Sample.yml  ------->>@14:00Mins
 
 Ansible Playbooks creation,YML files.
 

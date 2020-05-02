@@ -149,14 +149,14 @@ Variable Priority order:
 7. variables from inventory , group 
 --------------------------------------------------
 
-Create Project.yml  @54:00Mins
-Robo-shop=Mariabd
+##Create Project.yml  @54:00Mins
+##Robo-shop=Mariabd
 
 Copy Module:@54:00Mins
 src:  dest:
 
 Previliage escalations. @58:00Mins
-become: yes #TO Enable SUDO
+become: yes # TO Enable SUDO
 
 Creating Roles:@1:00:00Mins for structured data:
 To use Roles it should comtain main.yml #https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html

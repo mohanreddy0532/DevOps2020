@@ -217,8 +217,9 @@ Role dependencies:/mongod/meta/main.yml @29:00Mins
 [centos@ip-172-31-32-65 ansible]$ ansible-playbook playbooks/10-register.yml
 
 
+11-conditionals.yml @48:00Mins
 
-
+/ansible/playbooks/roles/mongodb/tasks/schema.yml (to check mutile .js file exist or not) @59:00Mins
 
 
 =============================================***********===================================================

@@ -64,6 +64,7 @@ remote_user = centos
 
 ansible all --private-key=~/devops.pem -m ping
 
+
 Automate Private-key by editing ansible.cfg as below.
 
 private_key_file = /home/centos/devops.pem
@@ -212,8 +213,8 @@ Role dependencies:/mongod/meta/main.yml @29:00Mins
 09.loop.yml @34:00Mins---to deal with multiple js files.
 
 
-
-
+10-regisrtry.yml @45:00Mins
+[centos@ip-172-31-32-65 ansible]$ ansible-playbook playbooks/10-register.yml
 
 
 

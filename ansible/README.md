@@ -68,12 +68,13 @@ Automate Private-key by editing ansible.cfg as below.
 
 private_key_file = /home/centos/devops.pem
 
-ansible all -m ping
+ansible all -m ping #to check ping module.
+ansible all -m ping -o # o/p will be in single line
 ---------------------------------
 Using shell module:
 
 ansible all -m shell -a uptime
-
+ansible all -m shell -a "uptime;df -h"
 =============================================
 Start with PlayBook for multiple Modules at a time:@D45-2020-02-20-SESSION-26@1:06:00Mins
 =======================================================

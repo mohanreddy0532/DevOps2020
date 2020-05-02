@@ -81,6 +81,10 @@ ansible all -m shell -a uptime
 ansible all -m shell -a "uptime;df -h"
 =============================================
 Start with PlayBook for multiple Modules at a time:@D45-2020-02-20-SESSION-26@1:06:00Mins
+
+Install:
+ansible all -m yum -a "name=nginx state=present" -s ## -s=for SUDO
+ansible all -m service -a "name=nginx state=started" -s
 =======================================================
 Create a sample playbook 01.sample.yml file
 =======================================

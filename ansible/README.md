@@ -167,7 +167,7 @@ Create mongoRepo: @1:07:00 Mins
 /home/mtallapu/Desktop/devops/ansible/playbooks/roles/mongodb/tasks/main.yml
 Update mongoDB role in project.yml
 Create mongo.repo file in /home/mtallapu/Desktop/devops/ansible/playbooks/roles/mongodb/files
-----
+
 Start a Service :
 
 -name: Start MongoDB
@@ -175,6 +175,9 @@ Start a Service :
     name:  mongod
     state: started  
     enabled: yes
+    
+Check service on target server: sudo netstat -nltp
+tcp        0      0 127.0.0.1:27017         0.0.0.0:*               LISTEN      2563/mongod
 
 Verbose mode: ansible-playbook -vvvv playbooks/06.roles.yml    
 =================================================================================

@@ -132,7 +132,9 @@ YAML to JSON convertion: yq
 ---------------------------#D45-2020-02-22-SESSION-28-----------------------------
 Ansible PlayBooks:
 02.play-layout.yml @11:49Mins
+
 03.print.yml    @15:00Mins
+
 04.Variables.yml @22:00Mins
 
 ansible-playbook playbooks/04.variables.yml

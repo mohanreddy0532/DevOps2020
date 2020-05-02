@@ -194,16 +194,16 @@ BlockIn File--change in a block at a time.
 
 For change a particular work or port number Use: @17:00Mins
 
-replace:
-
-          path: /tmp/mongod.conf
-          regexp: "27017"
-          replace: "27018" 
+replace: 
+   path: /tmp/mongod.conf
+   regexp: "27017"
+   replace: "27018" 
 
 ---------
 LoadSchema for MongoDB @20:40 and @33:00Mins
 For git
-Create pre-reqs/tasks/main.yml role @27:40
+
+Create pre-reqs/tasks/main.yml role @27:40--->Imp
 
 ---------
 Role dependencies:/mongod/meta/main.yml @29:00Mins

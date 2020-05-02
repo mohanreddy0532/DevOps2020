@@ -9,9 +9,9 @@ SSH Key setup for Ansible:
 
 Install Ansible:
 -------
-#yum install ansible -y;
+yum install ansible -y;
 
-#ansible --version
+ansible --version
 -------
 Creating Inventory:
 
@@ -89,7 +89,7 @@ ansible all -m service -a "name=nginx state=started" -s
 Create a sample playbook 01.sample.yml file
 =======================================
 
-D45-2020-02-21-SESSION-27 @23:30Mins
+#D45-2020-02-21-SESSION-27 @23:30Mins
 
 Ansible Best Practices: 
 https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout
@@ -129,7 +129,7 @@ Yet another markup language (YAML)
 YAML to JSON convertion: yq
 
 =================================================================================
----------------------------D45-2020-02-22-SESSION-28-----------------------------
+---------------------------#D45-2020-02-22-SESSION-28-----------------------------
 Ansible PlayBooks:
 02.play-layout.yml @11:49Mins
 03.print.yml    @15:00Mins
@@ -176,7 +176,7 @@ Start a Service :
 
 Verbose mode: ansible-playbook -vvvv playbooks/06.roles.yml    
 =================================================================================
----------------------------D45-2020-02-24-SESSION-29-----------------------------
+---------------------------#D45-2020-02-24-SESSION-29-----------------------------
 
 LineIn File & BlockIn File @2:00Mins -------it will change complete line in a file.
 Linein File--->Change entire single line

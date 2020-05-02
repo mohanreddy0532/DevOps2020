@@ -138,13 +138,13 @@ Ansible PlayBooks:
 ansible-playbook playbooks/04.variables.yml
 
 Variable Priority order:
-## 1. CLI 
-## 2. tasks
-## 3. vars_files 
-## 4. vars_prompt 
-## 5. vars 
-## 6. variables from inventory , hosts 
-## 7. variables from inventory , group 
+1. CLI 
+2. tasks
+3. vars_files 
+4. vars_prompt 
+5. vars 
+6. variables from inventory , hosts 
+7. variables from inventory , group 
 --------------------------------------------------
 
 Create Project.yml  @54:00Mins

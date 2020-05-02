@@ -67,7 +67,7 @@ ansible all --private-key=~/devops.pem -m ping
 Automate Private-key by editing ansible.cfg as below.
 
 private_key_file = /home/centos/devops.pem
-
+---------
 To List all module installed in ansible:
 #ansible-doc -l |wc -l
 

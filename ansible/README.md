@@ -199,8 +199,8 @@ replace:
    regexp: "27017"
    replace: "27018" 
 
----------
-LoadSchema for MongoDB @20:40 and @33:00Mins
+----------------------------------------------------------
+LoadSchema for MongoDB @20:40 and @30:00Mins--->imp
 For git
 
 Create pre-reqs/tasks/main.yml role @27:40--->Imp
@@ -211,6 +211,15 @@ Role dependencies:/mongod/meta/main.yml @29:00Mins
 ----
 09.loop.yml @34:00Mins---to deal with multiple js files.
 
--------------================
+
+
+
+
+
+
+
+
+
+=============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

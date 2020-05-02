@@ -179,7 +179,7 @@ Start a Service :
 Check service on target server: sudo netstat -nltp
 tcp        0      0 127.0.0.1:27017         0.0.0.0:*               LISTEN      2563/mongod
 
-Verbose mode: ansible-playbook -vvvv playbooks/06.roles.yml    
+Verbose mode Tracing: ansible-playbook -vvvv playbooks/06.roles.yml    
 
 =================================================================================
 
@@ -212,4 +212,5 @@ Role dependencies:/mongod/meta/main.yml @29:00Mins
 09.loop.yml @34:00Mins---to deal with multiple js files.
 
 -------------================
+
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

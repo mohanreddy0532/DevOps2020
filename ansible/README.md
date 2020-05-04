@@ -251,8 +251,8 @@ tcp6       0      0 :::5672                 :::*                    LISTEN      
 Robo-shop=MYsql @3:00Mins
 
 Install @15:00Mins
-SetUp default root/pwd @29:00Mins
-
+SetUp default root/pwd for one time@29:00Mins
+/file/pass-reset.schema.sql @38:00Mins
 
 
 

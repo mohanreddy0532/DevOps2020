@@ -244,9 +244,14 @@ switched to db users
 Robo-shop=RabbitMQ @1:05:00Mins
 
 create roles: rabbitmq/tasks/main.yml
+netstat -lntp
+tcp6       0      0 :::5672                 :::*                    LISTEN      4390/beam.smp 
 =================================D45-2020-02-25-SESSION-30==========================================
 
+Robo-shop=MYsql @3:00Mins
 
+Install @15:00Mins
+SetUp default root/pwd @29:00Mins
 
 
 

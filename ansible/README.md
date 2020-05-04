@@ -258,19 +258,21 @@ SetUp default root/pwd for one time@29:00Mins
 include_tasks: Includes a file with a list of tasks to be executed in the current playbook.
 import_tasks: Imports a list of tasks to be added to the current playbook for subsequent execution.
 
-
-
 To check SQL on remote machine :
 mysql -u root -ppassword @1:10:20Mins
 
+Robo-Shop=Reddis @1:11:00Mins.
+/redis/main.yml @1:14:00Mins
+=================================D45-2020-02-26-SESSION-31==========================================
 
+12.Filters.yml @05:00Mins #To manipulate data
+node --version @35:06Mins
 
+Role:catalogue service @34:00Mins
 
+clone-module:@38:00Mins
 
-
-
-
-
+Ansible vault: @50:00Mins
 =============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

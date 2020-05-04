@@ -222,6 +222,46 @@ Role dependencies:/mongod/meta/main.yml @29:00Mins
 /ansible/playbooks/roles/mongodb/tasks/schema.yml (to check mutile .js file exist or not) @59:00Mins
 
 
+sudo service mongod start;
+Error:Job for mongod.service failed because the control process exited with error code. See "systemctl status mongod.service" and "journalctl -xe" for details.
+sudo systemctl status mongod.service
+error:Failed to start.
+rm -rf /tmp/mongodb-27017.sock
+
+netstat -nltp;
+
+cd /tmp/robo-shop/mongo
+mongo #to enter DB
+show dbs
+> use users;
+switched to db users
+> db. dropDatabase()
+{ "dropped" : "users", "ok" : 1 }
+> 
+
+>show dbs (it will dropped Db users)
+--------------------------------------------------
+Robo-shop=RabbitMQ @1:05:00Mins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 =============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

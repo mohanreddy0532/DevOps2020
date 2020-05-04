@@ -254,11 +254,14 @@ Install @15:00Mins
 SetUp default root/pwd for one time@29:00Mins
 /file/pass-reset.schema.sql @38:00Mins
 
+@47:00Mins
+include_tasks: Includes a file with a list of tasks to be executed in the current playbook.
+import_tasks: Imports a list of tasks to be added to the current playbook for subsequent execution.
 
 
 
-
-
+To check SQL on remote machine :
+mysql -u root -ppassword @1:10:20Mins
 
 
 

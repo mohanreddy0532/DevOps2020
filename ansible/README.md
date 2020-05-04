@@ -184,7 +184,7 @@ Verbose mode Tracing: ansible-playbook -vvvv playbooks/06.roles.yml
 
 =================================================================================
 
----------------------------#D45-2020-02-24-SESSION-29---------Started--------------------
+---------------------------#D45-2020-02-24-SESSION-29-----------------------------
 
 LineIn File & BlockIn File @2:00Mins -------it will change complete line in a file.
 
@@ -243,7 +243,8 @@ switched to db users
 --------------------------------------------------
 Robo-shop=RabbitMQ @1:05:00Mins
 
-
+create roles: rabbitmq/tasks/main.yml
+=================================D45-2020-02-25-SESSION-30==========================================
 
 
 

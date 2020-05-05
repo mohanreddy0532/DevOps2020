@@ -273,6 +273,25 @@ Role:catalogue service @34:00Mins
 clone-module:@38:00Mins
 
 Ansible vault: @50:00Mins
+
+ls -ltr /root/ROBO-SHOP/catalogue @1:07:00Mins
+
+Install NodeJS @1:09:00Mins
+
+Catalogue service started.
+ps -ef| grep catalogue
+root /bin/mode /root/ROBO-SHOP/catalogue/server.js
+=================================D45-2020-02-28-SESSION-32==========================================
+After catalogue service, we went with diff. functions.
+Calling function wit diff. values.So try to re-use the code
+So copy nodeJS/main.yml to install.yml
+copy part of catalogue/mail.yml to nodeJS/app-setup.yml
+Import another role to catalogue/mail.yml from nodeJS
+
+Role:cart service @12:00
+
+
+
 =============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

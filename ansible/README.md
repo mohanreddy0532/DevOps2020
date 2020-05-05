@@ -287,10 +287,21 @@ Calling function wit diff. values.So try to re-use the code
 So copy nodeJS/main.yml to install.yml
 copy part of catalogue/mail.yml to nodeJS/app-setup.yml
 Import another role to catalogue/mail.yml from nodeJS
+copy name catalogue/vars/main.yml from nodeJS/vars/main.yml
 
 Role:cart service @12:00
+cart/tasks/main.yml
+for nodejs--->cart/meta/main.yml dependencies
 
+Now call Application @17:05Mins
+copy catalogue/tasks/main.yml to cart/tasks/main.yml
 
+Cart service started.
+ps -ef| grep service.js @21:10Mins
+root /bin/mode /root/ROBO-SHOP/cart/server.js
+
+Role:Shipping service @21:00Mins
+Require Java
 
 =============================================***********===================================================
 

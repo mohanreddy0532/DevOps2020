@@ -276,7 +276,9 @@ Ansible vault: @50:00Mins
 
 ls -ltr /root/ROBO-SHOP/catalogue @1:07:00Mins
 
-Install NodeJS @1:09:00Mins
+Update ROOT-DIR--->/roor/robo-shop@1:07
+
+****Install NodeJS @1:09:00Mins****Wrong
 
 Catalogue service started.
 ps -ef| grep catalogue

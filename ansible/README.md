@@ -281,6 +281,7 @@ Install NodeJS @1:09:00Mins
 Catalogue service started.
 ps -ef| grep catalogue
 root /bin/mode /root/ROBO-SHOP/catalogue/server.js
+manual:systemctl start catlogue
 =================================D45-2020-02-28-SESSION-32==========================================
 After catalogue service, we went with diff. functions.
 Calling function wit diff. values.So try to re-use the code
@@ -299,10 +300,18 @@ copy catalogue/tasks/main.yml to cart/tasks/main.yml
 Cart service started.
 ps -ef| grep service.js @21:10Mins
 root /bin/mode /root/ROBO-SHOP/cart/server.js
+manual:systemctl start cart
 
 Role:Shipping service @21:00Mins
-Require Java
+removed pre-reqs as we hv app-clone with vault pwd.
+Require Java @25:00Mins
 
+Create S3 bucket contains jar files.@30:00Mins
+for S3-->D45-2020-02-17-SESSION-23 @57:00Mins
+shipping/defaults/main.yml @32:00Mins
+why defaults:to over ride the jar file.(to provide another URL)
+
+rsyslog @40:00Mins
 =============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

@@ -316,7 +316,9 @@ why defaults:to over ride the jar file.(to provide another URL)
 rsyslog @40:00Mins
 Role:Payment service-python---->@1:00:00Mins
 
-Check:
+=================================D45-2020-02-29-SESSION-33=================================
+Ansible:
+Continue.......Role:Payment service-python 
 =============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

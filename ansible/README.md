@@ -319,6 +319,10 @@ Role:Payment service-python---->@1:00:00Mins
 =================================D45-2020-02-29-SESSION-33=================================
 Ansible:
 Continue.......Role:Payment service-python 
+
+Role:Dispatch service @22:00Mins 
+Role:Dispatch service @22:00Mins
+&& = will execute a second command only if first one is successful @40:00Mins
 =============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

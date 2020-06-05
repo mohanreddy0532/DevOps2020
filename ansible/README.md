@@ -331,7 +331,8 @@ ps -ef | grep go @1:09:00
 
 Dynamic inventory??? Q?@1:11:00
 
-Role:User service @1:12:00Mins
+Role:User service @1:12:00Mins.
+
 =============================================***********===================================================
 
 >>>>>>Online Book For Ansible: Ansible for DevOps /////#D45-2020-03-03-SESSION-35 @53:00Mins

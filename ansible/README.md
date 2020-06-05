@@ -324,10 +324,12 @@ Continue.......Role:Payment service-python
 
 Role:Dispatch service @22:00Mins
 golang: @23:00Mins
-&& = will execute a second command only if first one is successful @40:00Mins
-ps -ef | grep go @1:09:00
-Dynamic inventory??? Q?@1:11:00
 
+&& = will execute a second command only if first one is successful @40:00Mins
+
+ps -ef | grep go @1:09:00
+
+Dynamic inventory??? Q?@1:11:00
 
 Role:User service @1:12:00Mins
 =============================================***********===================================================

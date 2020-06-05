@@ -4,6 +4,9 @@ Refer practicals
 https://gitlab.com/mohanreddy0532/devops
 git add -A
 when -A option is used, all files in the entire working tree are updated.
+
+Git commit with current date as a message:
+git add -A;git commit -m "`date`";git push; 
 =============================================
 Install Ansible-Server:
 

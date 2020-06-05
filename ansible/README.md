@@ -329,9 +329,8 @@ golang: @23:00Mins
 
 ps -ef | grep go @1:09:00
 
-Dynamic inventory??? Q?@1:11:00
-
-Role:User service @1:12:00Mins.
+Dynamic inventory??? Q?@1:11:00.
+Role:User service @1:12:00Mins
 
 =============================================***********===================================================
 
